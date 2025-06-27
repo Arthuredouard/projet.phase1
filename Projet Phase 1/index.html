@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EducOnline</h1>
+    <input type="text" id="searchInput" placeholder="Rechercher un cours..." />
+  </header>
+
+  <main>
+    <section id="course-list-section">
+      <h2>Liste des cours</h2>
+      <div id="course-list" class="course-container"></div>
+    </section>
+
+    <section id="course-detail-section">
+      <h2>Détails du cours</h2>
+      <div id="course-detail"></div>
+    </section>
+
+    <section id="add-course-section">
+      <h2>Ajouter un nouveau cours</h2>
+      <form id="course-form">
+        <input type="text" id="title" placeholder="Titre du cours" required />
+        <input type="text" id="instructor" placeholder="Nom du formateur" required />
+        <textarea id="description" placeholder="Description du cours" required></textarea>
+        <button type="submit">Ajouter</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

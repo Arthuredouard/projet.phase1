@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction à JavaScript",
+      "instructor": "Jean Mathieu",
+      "description": "Apprenez les bases du JavaScript, y compris les variables, fonctions, et boucles.",
+      "likes": 12
+    },
+    {
+      "id": 2,
+      "title": "HTML & CSS pour débutants",
+      "instructor": "Sophia Lemoine",
+      "description": "Créez vos premières pages web en utilisant HTML et CSS.",
+      "likes": 8
+    },
+    {
+      "id": 3,
+      "title": "Développement Web avec React",
+      "instructor": "Marco Vernet",
+      "description": "Construisez des interfaces dynamiques avec la bibliothèque React.",
+      "likes": 20
+    }
+  ]
+}
